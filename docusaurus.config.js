@@ -85,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'Tonalities',
-                to: '/docs/tonalities',
+                to: '/docs/',
               },
             ],
           },
@@ -93,16 +93,16 @@ const config = {
             title: 'Community links',
             items: [
               {
-                label: 'Steam',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Our Games on Steam',
+                href: 'https://store.steampowered.com/search/?developer=Gameful%20Developments',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/BypB7jMRWW',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/gameful-dev',
               },
             ],
           },
