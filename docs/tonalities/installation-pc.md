@@ -6,6 +6,12 @@ sidebar_position: 1
 
 ## Windows Devices
 
+Coming soon...
+
 ## MacOS
 
+Coming soon...
+
 ## Linux
+
+Coming soon...

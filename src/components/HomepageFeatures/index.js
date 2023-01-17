@@ -14,19 +14,19 @@ const FeatureList = [
       </>
     ),
     button_text: "Get started",
-    url: "",
+    url: "/docs/",
   },
   {
-    title: 'Troubleshooting',
+    title: 'Behind the scenes',
     Svg: require('@site/static/img/undraw_right_direction_tge8.svg').default,
     description: (
       <>
-        Having problems when playing on of our games? Head over to our FAQ area to see if we
-        can answer your questions.
+        Would you like to know about the latest and greatest features we're currently working on?
+        Visit out dev log for monthly updates on what's cooking'.
       </>
     ),
-    button_text: "Frequently Asked Questions",
-    url: "",
+    button_text: "Read our devlog",
+    url: "/blog/",
   },
   {
     title: 'Speak to a human',
@@ -38,7 +38,7 @@ const FeatureList = [
       </>
     ),
     button_text: "Join us on Discord",
-    url: "",
+    url: "https://discord.gg/BypB7jMRWW",
   },
 ];
 

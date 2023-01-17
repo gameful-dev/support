@@ -6,4 +6,4 @@ sidebar_position: 1
 
 Select a game for further instructions:
 
-- Tonalities (2023)
+- [Tonalities (2023)](/docs/category/tonalities)

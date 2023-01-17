@@ -6,4 +6,8 @@ sidebar_position: 2
 
 ## Android
 
+Coming soon...
+
 ## iOS
+
+Coming soon...
