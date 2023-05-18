@@ -27,6 +27,26 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    () => ({
+      name: "inject-tag",
+      injectHtmlTags() {
+        return {
+          headTags: [
+            {
+              tagName: "script", 
+              attributes: {
+                src: "https://plausible.io/js/script.js",
+                "data-domain": "support.gameful.dev",
+                defer: "defer"
+              }
+            }
+          ]
+        };
+      }
+    })
+  ],
+
   presets: [
     [
       'classic',
@@ -69,7 +89,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Dev logs', position: 'left'},
+          {to: '/blog', label: 'Devlog', position: 'left'},
           {
             href: 'https://www.gameful.dev/',
             label: 'Main website',
@@ -110,7 +130,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Dev Logs',
+                label: 'Devlogs',
                 to: '/blog',
               },
               {
