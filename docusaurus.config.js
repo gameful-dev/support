@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'Our Games on Steam',
-                href: 'https://store.steampowered.com/search/?developer=Gameful%20Developments',
+                href: 'https://store.steampowered.com/search/?publisher=Gameful%20Developments',
               },
               {
                 label: 'Discord',
